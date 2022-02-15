@@ -1,0 +1,11 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{    
+  int a,b;//get the value from the user and print or show the values
+  clrscr();
+  cout<<"enter a 2 value form user";
+  cin>>a>>b;
+  cout<<"the value are :"<<a<<b;
+  getch();
+}
