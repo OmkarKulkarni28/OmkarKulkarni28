@@ -1,0 +1,21 @@
+#include<iostrem.h>
+#include<conio.h>
+int s[10],n=10,top=-1;
+void push(int val)
+{ 
+ if(top=>n-1)
+   cout<<"stack underflow"<<endl;
+ else
+    top++;
+    s[top]=val;
+}
+void main()
+{
+int val;
+clrscr();
+cout<<"enter value to push"<<endl;
+cin>>val;
+push(val);
+cout<<"the value you pushed:"<<val'  '<<endl;
+getch();
+}
