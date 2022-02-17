@@ -1,4 +1,4 @@
-#include<iostrem.h>
+#include<iostream.h>
 #include<conio.h>
 int s[10],n=10,top=-1;
 void push(int val)
