@@ -1,0 +1,11 @@
+include<iostream.h>
+include<conio.h>
+{
+ int n=5; 
+ clrscr();
+ for(int i=10;i<n;i++)
+ { 
+   cout<<"  -|*|_";endl;
+ }
+ getch();
+}
