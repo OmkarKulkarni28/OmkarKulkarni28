@@ -1,6 +1,6 @@
 #include<iostream.h>
 #include<conio.h>
-vold main()
+void main()
 {
 int num;
 clrscr();
