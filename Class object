@@ -1,0 +1,33 @@
+#include<conio.h>
+#include<iostream.h>
+class anna
+{
+  public:
+  char name[10];
+  int age,salary;
+  get()
+  {
+   cout<<"get data from user" ;
+   cin>>name;
+   cout<<"enter age and salary";
+   cin>>age>>salary;
+  }
+    put()
+     {
+       cout<<"entered detalis___";
+       cout<<"name of person"<<name<<endl;
+       cout<<"this is age" <<age<<endl;
+       cout<<"salary of the month"<<salary<<endl;
+      }
+};
+void main()
+{
+  clrscr();
+  anna a1,a2;
+
+  a1.get();
+  a2.get();
+  a1.put();
+  a2.put();
+  getch();
+}
