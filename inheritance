@@ -1,0 +1,39 @@
+#include <iostream>
+
+using namespace std;
+
+
+class shape
+{
+    public:
+    virtual void draw()=0;
+};
+class rectangle:shape
+{
+    public:
+    void draw()
+    {
+        cout<<"drawing rectange"<<endl;
+    }
+};
+class circle:shape
+{
+    public:
+    void draw()
+    {
+        cout<<"drawing circle";
+
+    }
+    
+};
+
+int main()
+{
+    rectangle r;
+    circle c;
+    r.draw();
+    c.draw();
+    
+
+    return 0;
+}
